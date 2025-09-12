@@ -5,14 +5,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   margin: 0;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .container {
   max-width: 1200px;
+  width: 100%;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -98,4 +102,157 @@ h1 {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+/* Media queries para responsividade */
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 72px;
+  }
+
+  .slogan {
+    font-size: 30px;
+  }
+
+  .discord-button a {
+    font-size: 22px;
+    padding: 12px 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  .slogan {
+    font-size: 26px;
+  }
+
+  .discord-button a {
+    font-size: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 7px 0 0 #111111;
+  }
+
+  .credits {
+    font-size: 16px;
+  }
+
+  .dev-banner {
+    font-size: 16px;
+    padding: 6px 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 8px;
+  }
+
+  .slogan {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .discord-button {
+    margin: 15px 0 25px 0;
+  }
+
+  .discord-button a {
+    font-size: 18px;
+    padding: 8px 16px;
+    border-width: 2px;
+    box-shadow: 0 5px 0 0 #111111;
+  }
+
+  .discord-button a:hover {
+    top: 3px;
+  }
+
+  .credits {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .dev-banner {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Media query para zoom alto ou telas muito estreitas */
+@media screen and (max-width: 375px) {
+  body {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 6px;
+    word-wrap: break-word;
+  }
+
+  .slogan {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .discord-button a {
+    font-size: 16px;
+    padding: 6px 12px;
+    border-width: 2px;
+    box-shadow: 0 4px 0 0 #111111;
+    white-space: normal;
+    max-width: 100%;
+  }
+
+  .credits {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 10px;
+  }
+
+  .dev-banner {
+    font-size: 12px;
+    padding: 4px 8px;
+    margin-bottom: 12px;
+  }
+}
+
+/* Regras adicionais para níveis extremos de zoom */
+@media screen and (max-width: 320px) {
+  body {
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+
+  .slogan {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .discord-button {
+    margin: 10px 0 20px 0;
+  }
+
+  .discord-button a {
+    display: block;
+    margin: 0 auto;
+  }
 }
