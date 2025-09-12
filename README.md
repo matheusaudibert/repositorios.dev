@@ -1,3 +1,16 @@
+# [Repositorios.dev](https://www.repositorios.dev)
+Repostios.dev é um projeto open-source focado na comunidade da área de tecnologia, destinado a compartilhar, descobrir e impulsionar projetos.
+
+Esse repositório contém o código-fonte do site e da API do Repostios.dev.
+## Conteúdo
+
+- [Instalar e rodar o projeto](#instalar-e-rodar-o-projeto)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Instalação](#instalação)
+  - [Execução](#execução)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Dependências](#dependências)
+- [Licença](#licença)
 # Projeto Frontend
 
 Este é o repositório do projeto frontend desenvolvido com Next.js.
