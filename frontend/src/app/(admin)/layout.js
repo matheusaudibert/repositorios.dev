@@ -1,0 +1,1 @@
+// O layout.js do admin vai ser separado do app (user)
