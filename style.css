@@ -68,6 +68,11 @@ h1 {
   font-weight: 500;
 }
 
+.open-source {
+  color: #111111;
+  font-weight: 700;
+}
+
 .name {
   color: #111111;
   text-decoration: none;
