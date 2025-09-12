@@ -53,6 +53,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 3. Instale as dependências:
    ```bash
    npm install
+   yarn run dev
    ```
 
 ## Execução
@@ -61,6 +62,8 @@ Para rodar o projeto em ambiente de desenvolvimento:
 
 ```bash
 npm run dev
+## ou
+yarn run dev
 ```
 
 O projeto estará disponível em `http://localhost:3000`.
