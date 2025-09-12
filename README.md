@@ -1,4 +1,7 @@
 # [Repositorios.dev](https://www.repositorios.dev)
+Repostios.dev é um projeto open-source focado na comunidade da área de tecnologia, destinado a compartilhar, descobrir e impulsionar projetos.
+
+Esse repositório contém o código-fonte do site e da API do Repostios.dev.
 ## Conteúdo
 
 - [Instalar e rodar o projeto](#instalar-e-rodar-o-projeto)
