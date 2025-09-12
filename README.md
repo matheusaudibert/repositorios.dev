@@ -1,4 +1,4 @@
-# [Repositorios.dev](#Repositorios.dev)
+# [Repositorios.dev](www.repositorios.dev)
 ## Conteúdo
 
 - [Instalar e rodar o projeto](#instalar-e-rodar-o-projeto)
