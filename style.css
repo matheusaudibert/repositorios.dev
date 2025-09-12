@@ -1,0 +1,90 @@
+body {
+  background-color: #ffffff;
+  color: #111111;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 96px;
+  margin: 0;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.slogan {
+  color: #111111;
+  font-size: 38px;
+  margin: 0 0 25px 0;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.discord-button {
+  margin: 20px 0 30px 0;
+}
+
+.discord-button a {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #111111;
+  text-decoration: none;
+  padding: 15px 30px;
+  border: 3px solid #111111;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 26px;
+  box-shadow: 0 10px 0 0 #111111;
+  position: relative;
+  top: 0;
+  transition: all 0.2s ease;
+}
+
+.discord-button a:hover {
+  top: 4px;
+  box-shadow: 0 0 0 0 #111111;
+}
+
+.discord {
+  font-style: italic;
+  color: #5865f2;
+  font-weight: 800;
+}
+
+.credits {
+  font-size: 18px;
+  color: #111111;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.name {
+  color: #111111;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.dev-banner {
+  background-color: #5865f2;
+  color: white;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  display: inline-block;
+  transform: rotate(-2deg);
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
