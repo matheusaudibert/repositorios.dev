@@ -48,14 +48,14 @@ h1 {
   border-radius: 20px;
   font-weight: 600;
   font-size: 26px;
-  box-shadow: 0 10px 0 0 #111111;
+  box-shadow: 0 8px 0 0 #111111;
   position: relative;
   top: 0;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 .discord-button a:hover {
-  top: 4px;
+  top: 8px;
   box-shadow: 0 0 0 0 #111111;
 }
 
