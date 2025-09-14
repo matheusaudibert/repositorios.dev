@@ -4,5 +4,7 @@
 
 A ideia é construir um espaço onde desenvolvedores possam divulgar seus trabalhos, receber feedback, colaborar e apoiar iniciativas inovadoras.
 
+![Logo do Repositorios.dev](media/image.png)
+
 > [!NOTE]
 > O projeto está ainda em desenvolvimento!
