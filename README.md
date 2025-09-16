@@ -7,4 +7,4 @@ A ideia é construir um espaço onde desenvolvedores possam divulgar seus trabal
 ![Logo do Repositorios.dev](media/image.png)
 
 > [!NOTE]
-> O projeto está ainda em desenvolvimento!
+> O projeto está ainda em desenvolvimento!.
